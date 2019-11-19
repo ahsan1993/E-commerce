@@ -1,0 +1,179 @@
+body
+{
+    font-family: "Montserrat";
+}
+h3
+{
+    font-family: "Montserrat-Bold";
+}
+h2
+{
+    font-family: "Montserrat-Bold";
+    font-size: 1rem;
+    line-height: 1.5;
+}
+/* title */
+#title
+{
+    font-family: 'Ubuntu', sans-serif;
+
+    background-color: #ff4c86; 
+}
+.collapse
+{
+    z-index: 1;
+}
+.fstyle
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* navbnar and button */
+.containor-fluide
+{
+    padding: 3% 15%;
+}
+.navbar-barnd
+{
+    color: rgb(243, 233, 233);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-barnd:hover
+{
+    color: black;
+}
+.navbar
+{
+    padding :0 0 4.5rem;
+}
+.nav-itam
+{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-family: "Montserrat";
+    size: 1.5rem;
+}
+.Download-button
+{
+    margin: 5% 3% 5% 0;
+}
+.image-title
+{
+    z-index: -1;
+    transform: rotate(30deg);
+}
+/* features */
+#features
+{
+    padding: 7% 15%;
+    
+}
+.features-div
+{
+    padding: 5%;
+    text-align: center;
+}
+.features-div h3
+{
+   font-size: 1.5rem;
+}
+p{
+    color: grey;
+}
+.icon
+{
+    color: rgb(231, 46, 46);
+    margin-bottom: 1rem;
+}
+.icon:hover
+{
+    color: brown;
+}
+/* testimonials */
+#testimonials
+{
+    background-color: #ff6361;
+    text-align: center;
+    color: #fff;
+}
+#carouselExampleControls
+{
+    padding:  7% 15%;
+}
+.testimonial-image
+{
+
+    width: 200px;
+    height: 230px;
+    margin: 20px;
+}
+.testimonial-text
+{
+    font-size: 1.5rem;
+}
+
+/* mobile-logo */
+#mobile-logo
+{
+    background-color: #ff6361;
+    text-align: center;
+    padding: 3%;
+}
+.mlogo
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* pricing */
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column
+{
+    padding: 3% 2%;
+}
+
+/* cta */
+#cta
+{
+    text-align: center;
+    background-color: #ff6361;
+    color: #fff;
+    padding: 7% 15%;
+    font-size: 3.5rem;
+}
+.cta-h
+{
+    font-display: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/* footer */
+#footer
+{
+    text-align: center;
+    padding: 7% 15%;
+}
+.socal
+{
+   margin: 15px 15px;
+}
+@media (max-width:990px)
+{
+    .fstyle
+    {
+        text-align: center;
+    }
+    .image-title
+    {
+        position: static;
+        transform: rotate(0);
+        text-align: center;
+    }
+}
